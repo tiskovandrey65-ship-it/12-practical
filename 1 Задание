@@ -1,0 +1,6 @@
+n = int(input("Введите число n(n >=1):"))
+
+number_list = [item for item in range(1, n + 1) if item % 2 != 0]
+
+print(f"Количество элементов: {len(number_list)}")
+print(f"Список нечётных чисел от 1 до {n}: {number_list}")
