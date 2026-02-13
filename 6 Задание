@@ -1,0 +1,10 @@
+word = input("Введите слово:")
+
+letter_list = list(word)
+
+reverse_list = letter_list[::-1]
+
+if letter_list == reverse_list:
+    print("Это палиндром")
+else:
+    print("Не палиндром ")
