@@ -1,0 +1,14 @@
+prices_str ='100 50 200 150 75 300'
+
+prices = prices_str.split()
+
+prices = [int(x) for x in prices]
+max_price = max(prices)
+prices.remove(max_price)
+
+prices.append(max_price * 0.5)
+
+prices.sort()
+
+print(','.join(str(x)for x in prices))
+print(sum(prices)/len(prices))
