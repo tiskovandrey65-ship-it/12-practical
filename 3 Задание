@@ -1,0 +1,9 @@
+user = ['Admin', 'Guest','User','Bot']
+
+user[2] = 'Moderator'
+
+user[-1] = 'SuperAdmin'
+
+user.append('Newbie')
+
+print(user)
